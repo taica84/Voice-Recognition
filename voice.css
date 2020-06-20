@@ -1,0 +1,49 @@
+body {
+    background: #031321;
+    font-family: consolas;
+    color: black;
+  }
+
+   #btn{
+      width: 300px;
+      height:30px;
+     display: flex;
+     justify-content: center;
+     margin: 35px;
+      padding: 15px 30px;
+      color: 2196f3;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 24px;
+      overflow: hidden;
+      transition: 0.2s;
+      border-radius: 20px;
+   }
+   #btn:hover{
+       color: #255784;
+       background: #2196f3;
+       box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+   }
+   #me {
+       border: 2px solid #dedede;
+       background-color: white;
+       border-radius: 10px;
+       padding: 10px;
+       margin: 10px auto;
+       width: 30%;
+       height: 50px;
+       position: absolute;
+       
+   }
+  
+   #jarvis{
+       border: 2px solid #dedede;
+       background-color: lightskyblue;
+       border-radius: 10px;
+       padding: 10px;
+       margin-top: 100px;
+       width: 30%;
+       height: 50px;
+       position: absolute;
+       top: 200px;
+   }
